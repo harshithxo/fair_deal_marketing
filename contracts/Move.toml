@@ -1,0 +1,11 @@
+[package]
+name = "Marketplace"
+version = "0.0.1"
+authors = ["you"]
+
+[addresses]
+# Replace with your account address after `aptos init`
+marketplace = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir="aptos-move/framework/aptos-framework", rev="main" }
